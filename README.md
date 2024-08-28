@@ -6,10 +6,13 @@ How to setup and run ollama (llama3) on windows. Then use node to create api end
 3. Install postman for testing the api.
 
 4. Test Ollama installation as in below using command prompt.
+   ollama run <installed llama version>
+   eg:
+   ollama run llama3
 
    <img width="393" alt="image" src="https://github.com/user-attachments/assets/ea280123-5b5f-43f8-b6dc-94a3e6e2a3e7">
 
-5. Create the npm project in a folder and install dependencies.
+6. Create the npm project in a folder and install dependencies.
 npm init -y
 npm install express
 npm install axios
